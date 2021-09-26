@@ -1,0 +1,49 @@
+final hook addr is 0xb32b7758
+arm
+ ==== old instructions ==== 0xb32b7758
+           0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+00000000  70 4c 2d e9 10 b0 8d e2 b8 40 9f e5 04 40 8f e0  pL-......@...@..
+00000010  00 00 d4 e5 00 00 50 e3 05 00 00 1a a8 00 9f e5  ......P.........
+00000020  00 00 9f e7 00 00 90 e5 f0 4a f4 eb 01 00 a0 e3  .........J......
+00000030  00 00 c4 e5 94 40 9f e5 04 40 9f e7 00 00 94 e5  .....@...@......
+PS D:\MyCodeTools\Frida_syscall_interceptor\frida-agent-example-master\agent> python -u "d:\MyCodeTools\Frida_syscall_interceptor\frida-agent-example-master\agent\Hook.py"
+final hook addr is 0xb2df7758
+arm
+ ==== old instructions ==== 0xb2df7758
+           0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+00000000  70 4c 2d e9 10 b0 8d e2 b8 40 9f e5 04 40 8f e0  pL-......@...@..
+00000010  00 00 d4 e5 00 00 50 e3 05 00 00 1a a8 00 9f e5  ......P.........
+00000020  00 00 9f e7 00 00 90 e5 f0 4a f4 eb 01 00 a0 e3  .........J......
+00000030  00 00 c4 e5 94 40 9f e5 04 40 9f e7 00 00 94 e5  .....@...@......
+Starting substituting
+Starting writer.putInstruction(0x0100A0E3);
+PS D:\MyCodeTools\Frida_syscall_interceptor\frida-agent-example-master\agent> python -u "d:\MyCodeTools\Frida_syscall_interceptor\frida-agent-example-master\agent\Hook.py"
+final hook addr is 0xb2c76758
+arm
+ ==== old instructions ==== 0xb2c76758
+           0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+00000000  70 4c 2d e9 10 b0 8d e2 b8 40 9f e5 04 40 8f e0  pL-......@...@..
+00000010  00 00 d4 e5 00 00 50 e3 05 00 00 1a a8 00 9f e5  ......P.........
+00000020  00 00 9f e7 00 00 90 e5 f0 4a f4 eb 01 00 a0 e3  .........J......
+00000030  00 00 c4 e5 94 40 9f e5 04 40 9f e7 00 00 94 e5  .....@...@......
+Starting substituting
+Starting writer.putInstruction(0x0100A0E3);
+PS D:\MyCodeTools\Frida_syscall_interceptor\frida-agent-example-master\agent> python -u "d:\MyCodeTools\Frida_syscall_interceptor\frida-agent-example-master\agent\Hook.py"
+final hook addr is 0xb2c76758
+arm
+ ==== old instructions ==== 0xb2c76758
+           0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+00000000  01 00 a0 e3 1e ff 2f e1 b8 40 9f e5 04 40 8f e0  ....../..@...@..
+00000010  00 00 d4 e5 00 00 50 e3 05 00 00 1a a8 00 9f e5  ......P.........
+00000020  00 00 9f e7 00 00 90 e5 f0 4a f4 eb 01 00 a0 e3  .........J......
+00000030  00 00 c4 e5 94 40 9f e5 04 40 9f e7 00 00 94 e5  .....@...@......
+Starting substituting
+Starting writer.putInstruction(0x010AA0E3);
+Starting writer.putInstruction(0x1EFF2FE1);
+putInstruction Finished
+ ==== new instructions ==== 0xb2c76758
+           0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+00000000  01 0a a0 e3 1e ff 2f e1 b8 40 9f e5 04 40 8f e0  ....../..@...@..
+00000010  00 00 d4 e5 00 00 50 e3 05 00 00 1a a8 00 9f e5  ......P.........
+00000020  00 00 9f e7 00 00 90 e5 f0 4a f4 eb 01 00 a0 e3  .........J......
+00000030  00 00 c4 e5 94 40 9f e5 04 40 9f e7 00 00 94 e5  .....@...@......
